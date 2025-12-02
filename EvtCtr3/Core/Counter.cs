@@ -4,6 +4,7 @@ using RhythmBase.RhythmDoctor.Events;
 using RhythmBase.RhythmDoctor.Utils;
 using System.IO.Compression;
 using System.Text;
+using RhythmBase.Global.Settings;
 namespace EvtCtr3.Core;
 
 public interface ICounterResultItem
@@ -34,7 +35,7 @@ public class CounterResultItemDetailed : ICounterResultItem
 		CountsPerBar = new int[barCount];
 	}
 }
-public struct CounterResultCollection<TType, T> where TType: struct, Enum where T : ICounterResultItem
+public struct CounterResultCollection<TType, T> where TType : struct, Enum where T : ICounterResultItem
 {
 	public T this[EventType type]
 	{
@@ -43,7 +44,7 @@ public struct CounterResultCollection<TType, T> where TType: struct, Enum where 
 	}
 	private readonly T[] values;
 	public readonly int TotalCount => values.Sum(i => i.Count);
-	public readonly int Count => values.Sum(i => i?.Count??0);
+	public readonly int Count => values.Sum(i => i?.Count ?? 0);
 	public CounterResultCollection()
 	{
 		int capacity = 0;
@@ -154,13 +155,14 @@ internal class Counter
 	}
 	public CounterResultCollection<EventType, CounterResultItemDetailed> CountDetailed(string filepath)
 	{
+		LevelReadOrWriteSettings settings = new LevelReadOrWriteSettings() { ZipFileProcessMethod = ZipFileProcessMethod.AllFiles };
 		using RDLevel level = RDLevel.FromFile(filepath);
 		(int bar, _) = level.Length;
 		CounterResultCollection<EventType, CounterResultItemDetailed> result = new();
 		foreach (var evt in level)
 		{
 			(int b, _) = evt.Beat;
-			result[evt.Type]??= new CounterResultItemDetailed(bar)
+			result[evt.Type] ??= new CounterResultItemDetailed(bar)
 			{
 				Type = evt.Type,
 				Count = 0,
