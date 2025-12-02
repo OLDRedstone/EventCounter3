@@ -1,0 +1,117 @@
+key: zh-cn
+name: 简体中文
+values:
+  title:
+    name: 节奏医生事件计数器 3
+    description: 一个用于统计节奏医生关卡中事件数量的工具。
+  menu:
+    openfile: 打开文件
+    achievement: 成就
+    foldall: 折叠所有
+    expandall: 展开所有
+    visible_active: 显示细节
+    visible_inactive: 隐藏细节
+    export: 导出数据图
+    import: 导入???
+    theme: 主题
+    close: 退出
+    reverse_1: 反转选择
+    reverse_2: 反转选择
+    clear: 清空选择
+    empty: 已清空选择
+  tabs:
+    Sounds: 声音
+    Rows: 轨道
+    Actions: 动作
+    Rooms: 房间
+    Decorations: 精灵
+    Windows: 窗口
+    Unknown: 其他
+  status_bar:
+    selected_events: '{0} 个 {1}'
+    no_event_selected: 未选择事件
+    total_events: '已选择事件数: {0}'
+  dialog:
+    open_file_title: 打开节奏医生关卡文件
+    open_file_filter: 节奏医生关卡文件|*.rdlevel;*.rdzip
+    save_counter_title: 保存计数结果
+    save_counter_filter: 文件|*
+  watermark:
+    unstable: 不稳定版本
+  events:
+    AddClassicBeat: 普通节拍
+    AddFreeTimeBeat: 自由节拍
+    AddOneshotBeat: 单发节拍
+    AdvanceText: 浮动文字递进
+    BassDrop: 重低音震动
+    Blend: 混合精灵图
+    CallCustomMethod: 自定义方法
+    ChangeCharacter: 切换角色
+    ChangePlayersRows: 切换玩家轨道
+    Comment: 注释
+    CustomFlash: 自定义闪烁
+    FadeRoom: 淡入淡出房间
+    FinishLevel: 结束关卡
+    Flash: 闪烁
+    FlipScreen: 屏幕翻转
+    FloatingText: 浮动文字
+    ForwardDecorationEvent: 向上兼容精灵事件
+    ForwardEvent: 向上兼容事件
+    ForwardRowEvent: 向上兼容轨道事件
+    HideRow: 隐藏轨道
+    InvertColors: 颜色反转
+    MacroEvent: 宏事件
+    MaskRoom: 房间遮罩
+    Move: 移动精灵
+    MoveCamera: 移动摄像头
+    MoveRoom: 移动房间
+    MoveRow: 移动轨道
+    NarrateRowInfo: 朗读轨道信息
+    NewWindowDance: 窗口动效
+    PaintHands: 手涂色
+    PlayAnimation: 播放表情
+    PlayExpression: 播放表情
+    PlaySong: 播放音乐
+    PlaySound: 播放音效
+    PulseCamera: 脉冲摄影机
+    PulseFreeTimeBeat: 脉动自由节拍
+    ReadNarration: 朗读口述
+    ReorderRooms: 重新排序房间
+    ReorderRow: 轨道重排序
+    ReorderSprite: 精灵重排序
+    SayReadyGetSetGo: 护士语音设置
+    SetBackgroundColor: 设置背景
+    SetBeatSound: 设置节拍音效
+    SetBeatsPerMinute: 设置BPM
+    SetClapSounds: 设置按拍音效
+    SetCountingSound: 设置数拍音效
+    SetCrotchetsPerBar: 设置音节长度
+    SetForeground: 设置前景
+    SetGameSound: 设置游戏音效
+    SetHandOwner: 手分配
+    SetHeartExplodeInterval: 设置心爆间隔
+    SetHeartExplodeVolume: 设置心跳音量
+    SetOneshotWave: 单发波
+    SetPlayStyle: 设置播放模式
+    SetRoomContentMode: 设置房间内容模式
+    SetRoomPerspective: 设置房间视角
+    SetRowXs: 不可见拍子
+    SetSpeed: 设置速度
+    SetTheme: 设置主题
+    SetVFXPreset: 预设特效
+    SetVisible: 显示/隐藏
+    SetWindowContent: 设置窗口数量
+    ShakeScreen: 屏幕震动
+    ShakeScreenCustom: 自定义震动
+    ShowDialogue: 显示对话
+    ShowHands: 显示手
+    ShowRooms: 排列显示房间
+    ShowStatusSign: 显示状态牌
+    ShowSubdivisionsRows: 显示轨道细分
+    Stutter: 卡带效果
+    TagAction: 标签动作
+    TextExplosion: 弹幕效果
+    Tile: 平铺精灵图
+    Tint: 精灵涂色
+    TintRows: 轨道涂色
+    WindowResize: 窗口大小重置

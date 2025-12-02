@@ -1,0 +1,117 @@
+key: en-us
+name: English (United States)
+values:
+  title:
+    name: Rhythm Doctor Level Event Counter 3
+    description: A tool to count events in Rhythm Doctor levels.
+  menu:
+    openfile: Open File
+    achievement: Achievements
+    foldall: Fold All
+    expandall: Expand All
+    visible_active: Show Details
+    visible_inactive: Hide Details
+    export: Export Data Chart
+    import: Import???
+    theme: Theme
+    close: Close
+    reverse_1: Reverse Selection
+    reverse_2: Reverse Selection
+    clear: Clear Selection
+    empty: Selection Cleared
+  tabs:
+    Sounds: Sounds
+    Rows: Rows
+    Actions: Actions
+    Rooms: Rooms
+    Decorations: Decorations
+    Windows: Windows
+    Unknown: Misc
+  status_bar:
+    selected_events: '{0} {1}'
+    no_event_selected: No Event Selected
+    total_events: 'Total events: {0}'
+  dialog:
+    open_file_title: Open Rhythm Doctor Level File
+    open_file_filter: Rhythm Doctor Level File|*.rdlevel;*.rdzip
+    save_counter_title: Save Counter Result
+    save_counter_filter: File|*
+  watermark:
+    unstable: UNSTABLE VERSION
+  events:
+    AddClassicBeat: Add Classic Beat
+    AddFreeTimeBeat: Add Free Time Beat
+    AddOneshotBeat: Add Oneshot Beat
+    AdvanceText: Advance Text
+    BassDrop: Bass Drop
+    Blend: Blend
+    CallCustomMethod: Call Custom Method
+    ChangeCharacter: ''
+    ChangePlayersRows: Change Player's Rows
+    Comment: Comment
+    CustomFlash: Custom Flash
+    FadeRoom: Fade Room
+    FinishLevel: Finish Level
+    Flash: Flash
+    FlipScreen: Flip Screen
+    FloatingText: Floating Text
+    ForwardDecorationEvent: Forward Decoration Event
+    ForwardEvent: Forward Event
+    ForwardRowEvent: Forward Row Event
+    HideRow: Hide Row
+    InvertColors: Invert Colors
+    MacroEvent: Macro Event
+    MaskRoom: Mask Room
+    Move: Move Camera
+    MoveCamera: Move Camera
+    MoveRoom: Move Room
+    MoveRow: Move Row
+    NarrateRowInfo: Narrate Row Info
+    NewWindowDance: New Window Dance
+    PaintHands: Paint Hands
+    PlayAnimation: Play Animation
+    PlayExpression: Play Expression
+    PlaySong: Play Song
+    PlaySound: Play Sound
+    PulseCamera: Pulse Camera
+    PulseFreeTimeBeat: Pulse Free Time Beat
+    ReadNarration: Read Narration
+    ReorderRooms: Reorder Rooms
+    ReorderRow: Reorder Row
+    ReorderSprite: Reorder Sprite
+    SayReadyGetSetGo: Say Ready Get Set Go
+    SetBackgroundColor: Set Background Color
+    SetBeatSound: Set Beat Sound
+    SetBeatsPerMinute: Set Beats Per Minute
+    SetClapSounds: Set Clap Sounds
+    SetCountingSound: Set Counting Sound
+    SetCrotchetsPerBar: Set Crotchets Per Bar
+    SetForeground: Set Foreground
+    SetGameSound: Set Game Sound
+    SetHandOwner: Set Hand Owner
+    SetHeartExplodeInterval: Set Heart Explode Interval
+    SetHeartExplodeVolume: Set Heart Explode Volume
+    SetOneshotWave: Set Oneshot Wave
+    SetPlayStyle: Set Play Style
+    SetRoomContentMode: Set Room Content Mode
+    SetRoomPerspective: Set Room Perspective
+    SetRowXs: Set Row Xs
+    SetSpeed: Set Speed
+    SetTheme: Set Theme
+    SetVFXPreset: Set VFX Preset
+    SetVisible: Set Visible
+    SetWindowContent: Set Window Content
+    ShakeScreen: Shake Screen
+    ShakeScreenCustom: ''
+    ShowDialogue: Show Dialogue
+    ShowHands: Show Hands
+    ShowRooms: Show Rooms
+    ShowStatusSign: Show Status Sign
+    ShowSubdivisionsRows: Show Subdivisions Rows
+    Stutter: Stutter
+    TagAction: Tag Action
+    TextExplosion: Text Explosion
+    Tile: Tile
+    Tint: Tint Rows
+    TintRows: Tint Rows
+    WindowResize: Window Resize
